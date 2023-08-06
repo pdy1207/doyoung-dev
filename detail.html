@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoYoung.dev</title>
+    <link rel="stylesheet" href="css/detail.css" />
+    <link rel="stylesheet" href="./favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css?family=Mr+Dafoe"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <style>
+    .app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+        text-align: center;
+      }
+      header h1 {
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      @media (min-width: 768px) {
+        header h1 {
+          font-size: 3rem;
+        }
+      }
+      header p {
+        color: #94a3b8;
+        margin-bottom: 0.5rem;
+      }
+      header a {
+        color: #7393c1;
+      }
+
+      .tag-list {
+        width: 56rem;
+        max-width: 90vw;
+        display: flex;
+        flex-shrink: 0;
+        flex-direction: column;
+        gap: 1rem 0;
+        position: relative;
+        padding: 1.3rem 0;
+        overflow: hidden;
+      }
+
+      .loop-slider .inner {
+        display: flex;
+        width: -moz-fit-content;
+        width: fit-content;
+        animation-name: loop;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: var(--direction);
+        animation-duration: var(--duration);
+      }
+
+      .tag {
+        display: flex;
+        align-items: center;
+        gap: 0 0.2rem;
+        font-size: 0.9rem;
+        background-color: #201d48;
+        border-radius: 0.4rem;
+        padding: 0.7rem 1rem;
+        margin-right: 1rem;
+        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2),
+          0 0.1rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.2rem 1.5rem rgba(0, 0, 0, 0.4);
+      }
+      .tag span {
+        font-size: 1.2rem;
+        color: #64748b;
+      }
+
+      .fade {
+        pointer-events: none;
+        background: linear-gradient(
+          90deg,
+          #fff,
+          transparent 30%,
+          transparent 70%,
+          #fff
+        );
+        position: absolute;
+        inset: 0;
+      }
+
+      @keyframes loop {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+      
+  </style>
+  <body>
+    
+    <nav class="navigation">
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="index.html" class="menu__link">
+            <span class="menu__title">
+              <span class="menu__first-word" data-hover="Main"> Main </span>
+              <span class="menu__second-word" data-hover="Me">Me </span>
+            </span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <span class="menu__title">
+              <span class="menu__first-word" data-hover="Our"> Our </span>
+              <span class="menu__second-word" data-hover="History">
+                History
+              </span>
+            </span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <span class="menu__title">
+              <span class="menu__first-word" data-hover="Dev"> Dev </span>
+              <span class="menu__second-word" data-hover="Portfolio">  </span>
+            </span>
+          </a>
+        </li>
+        
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <span class="menu__title">         
+            <span class="menu__first-word" data-hover="New"> Pdy </span>
+            <span class="menu__second-word" data-hover="resume">
+              resume
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a
+          class="shadow"
+            href="mailto:pdyme1207@gmail.com?body=안녕하세요.%0D%0A취미이자 직업이 개발인 박도영Dev 입니다.%0D%0A방문 해 주셔서 감사합니다."
+            >Contact US</a
+            >
+          </li>
+        </ul>
+
+
+        <div class="skw-pages">
+          <div class="skw-page skw-page-1 active">
+            <div data-aos="fade-right"
+            data-aos-duration="1300"
+            data-aos-easing="ease-in-sine">
+            <div class="skw-page__half skw-page__half--left">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content"></div>
+              </div>
+            </div>
+            </div>
+            
+            <div class="skw-page__half skw-page__half--right">
+              
+              <div class="skw-page__skewed">
+                <div class="skw-page__content">                  
+                  <div data-aos="flip-left">
+                <h2 class="skw-page__heading">안녕하세요. 프론트 엔드 개발자 박도영입니다.</h2>
+                <p class="skw-page__description">Just scroll down</p>
+              </div>
+                <div class="scroll-down-dude"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="skw-page skw-page-2">
+          <div class="skw-page__half skw-page__half--left">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content">
+                <h2 class="skw-page__heading">Page 2</h2>
+                <p class="skw-page__description">
+                  Nothing to do here, continue scrolling.
+                </p>
+                <div class="scroll-down-dude"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skw-page__half skw-page__half--right">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skw-page skw-page-3">
+          <div class="skw-page__half skw-page__half--left">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content"></div>
+            </div>
+          </div>
+          <div class="skw-page__half skw-page__half--right">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content">
+                <h2 class="skw-page__heading">Page 3</h2>
+                <p class="skw-page__description">d</p>
+                <div class="scroll-down-dude"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skw-page skw-page-4">
+          <div class="skw-page__half skw-page__half--left">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content">
+                <h2 class="skw-page__heading">Page 4</h2>
+                <p class="skw-page__description">Ok, ok, just one more scroll!</p>
+                <div class="scroll-down-dude"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skw-page__half skw-page__half--right">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skw-page skw-page-5">
+          <div class="skw-page__half skw-page__half--left">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content"></div>
+            </div>
+          </div>
+          <div class="skw-page__half skw-page__half--right">
+            <div class="skw-page__skewed">
+              <div class="skw-page__content">
+                <h2 class="skw-page__heading">Epic finale</h2>
+                <p class="skw-page__description">
+                  Feel free to check
+                  <a
+                    class="skw-page__link"
+                    href="https://codepen.io/suez/pens/public/"
+                    target="_blank"
+                    >my other pens</a
+                  >
+                  and follow me on
+                  <a
+                    class="skw-page__link"
+                    href="https://twitter.com/NikolayTalanov"
+                    target="_blank"
+                    >Twitter</a
+                  >
+                  <input id="top" type="button" value="맨위로" onClick="javascript:window.scrollTo(0,0)" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+        <div class="container">
+        
+          <div class="timeline-block timeline-block-right">
+            <div class="marker"></div>
+            <div class="timeline-content">
+                 <h3>First Year</h3>
+                 <span>Some work experience</span>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+              </div>
+           </div>
+        
+           <div class="timeline-block timeline-block-left">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                 <h3>Seconed Year</h3>
+                 <span>Some work experience</span>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+              </div>
+           </div>
+        
+           <div class="timeline-block timeline-block-right">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                 <h3>Third Year</h3>
+                 <span>Some work experience</span>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+              </div>
+           </div>
+        
+           <div class="timeline-block timeline-block-left">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                 <h3>Fourth Year</h3>
+                 <span>Some work experience</span>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+              </div>
+           </div>
+        
+           <div class="timeline-block timeline-block-right">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                 <h3>Fifth Year</h3>
+                 <span>Some work experience</span>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+              </div>
+           </div>
+        </div>
+       
+        
+            
+    
+    
+    
+   
+      
+      
+      <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var curPage = 1;
+        var numOfPages = $(".skw-page").length;
+        var animTime = 1000;
+        var scrolling = false;
+        var pgPrefix = ".skw-page-";
+        
+        
+        function pagination() {
+          scrolling = true;
+
+          $(pgPrefix + curPage)
+            .removeClass("inactive")
+            .addClass("active");
+          $(pgPrefix + (curPage - 1)).addClass("inactive");
+          $(pgPrefix + (curPage + 1)).removeClass("active");
+
+          setTimeout(function () {
+            scrolling = false;
+          }, animTime);
+        }
+
+        function navigateUp() {
+          if (curPage === 1) return;
+          curPage--;
+          pagination();
+        }
+
+        function navigateDown() {
+          if (curPage === numOfPages) return;
+          curPage++;
+          pagination();
+        }
+
+        $(document).on("mousewheel DOMMouseScroll", function (e) {
+          if (scrolling) return;
+          if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+            navigateUp();
+          } else {
+            navigateDown();
+          }
+        });
+
+        $(document).on("keydown", function (e) {
+          if (scrolling) return;
+          if (e.which === 38) {
+            navigateUp();
+          } else if (e.which === 40) {
+            navigateDown();
+          }
+        });
+        
+      });
+      
+
+    </script>
+    <script src="./public/js/detail.js"></script>    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

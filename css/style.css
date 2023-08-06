@@ -1,0 +1,357 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+html,
+body {
+  height: 100vh;
+  font-family: "Poppins";
+  color: #efefef;
+  letter-spacing: -1.1px;
+}
+.navigation {
+  position: absolute;
+}
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.container {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.content {
+  display: flex;
+  gap: 5em;
+  width: 100%;
+  padding-top: 3em;
+  position: relative;
+  height: 180px;
+}
+.content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #efefef;
+  transform: scaleX(1);
+}
+h1 {
+  font-size: 4rem;
+  width: 50vw;
+  line-height: 97%;
+  text-align: right;
+}
+h1,
+p {
+  flex-basis: 0;
+  flex-grow: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+p {
+  font-size: 1.3rem;
+  width: 40vw;
+}
+/* like */
+
+.like-content::before {
+  transform: scaleX(0);
+}
+.like-content .btn-secondary {
+  display: block;
+  margin: 40px auto 0px;
+  text-align: center;
+  background: #ed2553;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #efefef;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.like-content .btn-secondary:hover {
+  transform: translateY(-3px);
+}
+.like-content .btn-secondary .fa {
+  margin-right: 5px;
+}
+.animate-like {
+  animation-name: likeAnimation;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.65s;
+}
+@keyframes likeAnimation {
+  0% {
+    transform: scale(30);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* nav */
+.navigation {
+  width: 100%;
+  /* border-bottom: 3px solid #ccd7d7; */
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  white-space: nowrap;
+}
+@media screen and (max-width: 480px) {
+  .menu__item:nth-child(n + 3) {
+    display: none;
+  }
+  .menu__item:nth-child(2) .menu__link {
+    border-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu__item:nth-child(n + 4) {
+    display: none;
+  }
+  .menu__item:nth-child(3) .menu__link {
+    border-right: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu__item:nth-child(n + 5) {
+    display: none;
+  }
+  .menu__item:nth-child(4) .menu__link {
+    border-right: 0;
+  }
+}
+.menu__item:last-child .menu__link {
+  border-right: 0;
+}
+
+.menu__link {
+  display: block;
+  padding: 6px 30px 3px;
+}
+.menu__link:hover .menu__first-word,
+.menu__link:focus .menu__first-word {
+  transform: translate3d(0, -105%, 0);
+}
+.menu__link:hover .menu__second-word,
+.menu__link:focus .menu__second-word {
+  transform: translate3d(0, 105%, 0);
+}
+@media screen and (min-width: 768px) {
+  .menu__link {
+    padding: 6px 40px 3px;
+  }
+}
+
+.menu__title {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.menu__first-word,
+.menu__second-word {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s;
+}
+.menu__first-word::before,
+.menu__second-word::before {
+  position: absolute;
+  content: attr(data-hover);
+}
+
+.menu__first-word {
+  color: #cb2028;
+}
+.menu__first-word::before {
+  top: 105%;
+  color: #cb2028;
+}
+
+.menu__second-word {
+  color: white;
+}
+.menu__second-word::before {
+  bottom: 105%;
+  color: white;
+} /*# sourceMappingURL=css.css.map */
+.shadow {
+  width: 150px;
+  max-width: 150px;
+  font-family: Mr Dafoe, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  background: linear-gradient(to right, #fff 5%, #cb2028 55%, #ff0 40%);
+  animation: shine 2s linear infinite;
+  background-size: 200% auto;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+} /*# sourceMappingURL=test.css.map */
+
+#social-platforms {
+  position: relative;
+  top: 24vh;
+  font-size: 1rem;
+  text-align: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+/*Pen code from this point on*/
+.btn {
+  clear: both;
+  white-space: nowrap;
+  font-size: 0.8em;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  margin: 2px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+}
+
+.btn:focus {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn > span,
+.btn-icon > i {
+  float: left;
+  padding: 13px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  line-height: 1em;
+}
+
+.btn > span {
+  padding: 14px 18px 16px;
+  white-space: nowrap;
+  color: #fff;
+  background: #212121;
+}
+
+.btn:focus > span {
+  background: #212121;
+}
+
+.btn-icon > i {
+  border-radius: 5px 0 0 5px;
+  position: relative;
+  width: 13px;
+  text-align: center;
+  font-size: 1.25em;
+  color: #fff;
+  background: #212121;
+}
+
+.btn-icon > i:after {
+  content: "";
+  border: 8px solid;
+  border-color: transparent transparent transparent #222;
+  position: absolute;
+  top: 13px;
+  right: -15px;
+}
+
+.btn-icon:hover > i,
+.btn-icon:focus > i {
+  color: #fff;
+}
+
+.btn-icon > span {
+  border-radius: 0 5px 5px 0;
+}
+
+/*github*/
+.btn-facebook:hover > i,
+.btn-facebook:focus > i {
+  color: #9b59b6;
+}
+
+.btn-facebook > span:hover {
+  background: #9b59b6;
+}
+
+/*Twitter*/
+.btn-twitter:hover > i,
+.btn-twitter:focus > i {
+  color: #07093c;
+}
+
+.btn-twitter > span:hover {
+  background: #07093c;
+}
+
+/*Resume*/
+.btn-googleplus:hover > i,
+.btn-googleplus:focus > i {
+  color: #cb2028;
+}
+
+.btn-googleplus > span:hover {
+  background: #cb2028;
+}
+
+/*Notion*/
+.btn-pinterest:hover > i,
+.btn-pinterest:focus > i {
+  color: gray;
+}
+
+.btn-pinterest > span:hover {
+  background: black;
+}
+
+/*Blog*/
+.btn-linkedin:hover > i,
+.btn-linkedin:focus > i {
+  color: #ea5220;
+}
+
+.btn-linkedin > span:hover {
+  background: #ea5220;
+}

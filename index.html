@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoYoung.dev</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mr+Dafoe"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navigation">
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="aboutme2.html" class="menu__link">
+              <span class="menu__title">
+                <span class="menu__first-word" data-hover="About"> About </span>
+                <span class="menu__second-word" data-hover="Us"> Us </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="detail.html" class="menu__link">
+              <span class="menu__title">
+                <span class="menu__first-word" data-hover="Our"> Our </span>
+                <span class="menu__second-word" data-hover="History">
+                  History
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              <span class="menu__title">
+                <span class="menu__first-word" data-hover="Latest"> Dev </span>
+                <span class="menu__second-word" data-hover="News">
+                  Portfolio
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              <span class="menu__title">
+                <span class="menu__first-word" data-hover="New"> Pdy </span>
+                <span class="menu__second-word" data-hover="resume">
+                  resume
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <!-- <li class="menu__item">
+            <a href="#" class="menu__link">
+              <span class="menu__title">
+                <span class="menu__first-word" data-hover="Contact">
+                  Contact
+                </span>
+                <span class="menu__second-word" data-hover="Us"> Us </span>
+              </span>
+            </a>
+          </li> -->
+          <li class="menu__item">
+            <a
+              class="shadow"
+              href="mailto:pdyme1207@gmail.com?body=안녕하세요.%0D%0A취미이자 직업이 개발인 박도영Dev 입니다.%0D%0A방문 해 주셔서 감사합니다."
+              >Contact US</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="content">
+        <h1>The Dev <br />ParkDoYoung</h1>
+        <p>
+          Develop This is Doyoung.dev. <br />
+          All rights reserved. <br />Thank you.
+        </p>
+      </div>
+      <div class="like-content">
+        <button class="btn-secondary like-review">
+          <i class="fa fa-heart" aria-hidden="true"></i> Like
+        </button>
+      </div>
+      <div id="social-platforms">
+        <a
+          class="btn btn-icon btn-facebook"
+          target="_blank"
+          href="https://github.com/pdy1207"
+          ><i class="fa fa-github"></i><span>Github</span></a
+        >
+        <a
+          class="btn btn-icon btn-twitter"
+          href="https://github.com/pdy1207?tab=projects"
+          target="_blank"
+          ><i class="fa fa-calendar-check-o"></i><span>Daily Report</span></a
+        >
+        <a class="btn btn-icon btn-googleplus" target="_blank" href="#"
+          ><i class="fa fa-address-card"></i><span>Resume</span></a
+        >
+        <a class="btn btn-icon btn-pinterest" target="_blank" href="#"
+          ><i class="fa fa-feed"></i><span>Notion</span></a
+        >
+        <a
+          class="btn btn-icon btn-linkedin"
+          href="https://parkdoyoung98.tistory.com/"
+          target="_blank"
+          ><i class="fa fa-cloud"></i><span>Blog</span></a
+        >
+      </div>
+    </div>
+    <canvas class="webgl"></canvas>
+
+    <script
+      src="https://kit.fontawesome.com/e53b3f6679.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/CSSRulePlugin.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const h1 = document.querySelector("h1");
+      const p = document.querySelector("p");
+      const button = document.querySelector(".like-content");
+      const tl = gsap.timeline();
+
+      tl.from(".content", { delay: 0.1, duration: 2, scaleX: 0 });
+      tl.from(
+        ".like-content",
+        {
+          duration: 0.5,
+          scaleX: 0,
+        },
+        "-=0.2"
+      );
+      tl.to(
+        h1,
+        {
+          duration: 1,
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+        },
+        "-=0.2"
+      );
+      tl.to(
+        p,
+        {
+          duration: 2,
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          y: "30px",
+        },
+        "-=0.2"
+      );
+    </script>
+    <script>
+      $(function () {
+        $(document).one("click", ".like-review", function (e) {
+          $(this).html(
+            '<i class="fa fa-heart" aria-hidden="true"></i> You liked this'
+          );
+          $(this).children(".fa-heart").addClass("animate-like");
+        });
+      });
+    </script>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
