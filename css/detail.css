@@ -252,7 +252,7 @@ body {
   color: #ffa0a0;
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("../1.jpg");
+  background-image: url("../public/img/network.jpg");
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
   background: #292929;
@@ -423,7 +423,7 @@ h1 span {
 .timeline-content {
   width: 95%;
   padding: 0 15px;
-  color: #666;
+  color: #f5f7fa;
 }
 
 .timeline-content h3 {
@@ -442,7 +442,7 @@ h1 span {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: #888;
+  color: #cecece;
 }
 
 @media screen and (max-width: 768px) {

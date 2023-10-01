@@ -17,10 +17,12 @@ body {
   align-items: center;
 }
 .home-content {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 28px;
   max-width: 935px;
-  background: red;
+  background: black;
   padding: 35px 86px;
-  height: 72vh;
+  height: auto;
 }
 .home-content h3:nth-of-type(2) {
   margin-bottom: 30px;
@@ -36,7 +38,7 @@ body {
   animation-delay: 0.7s;
 }
 .home-content h3 span {
-  color: #0e1218;
+  color: #2db400;
 }
 .home-content p {
   font-size: 16px;
