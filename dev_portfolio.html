@@ -11,104 +11,9 @@
       href="https://fonts.googleapis.com/css?family=Mr+Dafoe"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/portfolio.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <style>
-    .app {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-
-      header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 1rem;
-        text-align: center;
-      }
-      header h1 {
-        font-weight: 600;
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-      }
-      @media (min-width: 768px) {
-        header h1 {
-          font-size: 3rem;
-        }
-      }
-      header p {
-        color: #94a3b8;
-        margin-bottom: 0.5rem;
-      }
-      header a {
-        color: #7393c1;
-      }
-
-      .tag-list {
-        width: 56rem;
-        max-width: 90vw;
-        display: flex;
-        flex-shrink: 0;
-        flex-direction: column;
-        gap: 1rem 0;
-        position: relative;
-        padding: 1.3rem 0;
-        overflow: hidden;
-      }
-
-      .loop-slider .inner {
-        display: flex;
-        width: -moz-fit-content;
-        width: fit-content;
-        animation-name: loop;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-direction: var(--direction);
-        animation-duration: var(--duration);
-      }
-
-      .tag {
-        display: flex;
-        align-items: center;
-        gap: 0 0.2rem;
-        font-size: 0.9rem;
-        background-color: #201d48;
-        border-radius: 0.4rem;
-        padding: 0.7rem 1rem;
-        margin-right: 1rem;
-        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2),
-          0 0.1rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.2rem 1.5rem rgba(0, 0, 0, 0.4);
-      }
-      .tag span {
-        font-size: 1.2rem;
-        color: #64748b;
-      }
-
-      .fade {
-        pointer-events: none;
-        background: linear-gradient(
-          90deg,
-          #fff,
-          transparent 30%,
-          transparent 70%,
-          #fff
-        );
-        position: absolute;
-        inset: 0;
-      }
-
-      @keyframes loop {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(-50%);
-        }
-      }
-      
-  </style>
   <body>
     
     <nav class="navigation">
@@ -134,7 +39,7 @@
         </li>
 
         <li class="menu__item">
-          <a href="#" class="menu__link">
+          <a href="dev_portfolio.html" class="menu__link">
             <span class="menu__title">
               <span class="menu__first-word" data-hover="Dev"> Dev </span>
               <span class="menu__second-word" data-hover="Portfolio"> Portfolio </span>
@@ -147,8 +52,8 @@
           target="_blank" class="menu__link">
             <span class="menu__title">         
             <span class="menu__first-word" data-hover="Pdy"> Pdy </span>
-            <span class="menu__second-word" data-hover="resume">
-              resume
+            <span class="menu__second-word" data-hover="Resume">
+              Resume
               </span>
             </span>
           </a>
@@ -162,124 +67,111 @@
           </li>
         </ul>
 
+        
+        
+        <div class="project-duration">
+          <h1 id="project-title">SIDEPROJECT</h1>
+          <i id="project-content">프로젝트 링크가 탑제 되어있습니다. 프로젝트관련 더욱 자세한 사항은 <a id="profile-link" href="https://pdy1207.github.io/dev-resume/" target="_blank">[여기]</a>를 참조해주시기 바랍니다.</i>
+        </div>
+        
+        
+        
+        <div class="l-container">
+          <div class="b-game-card" data-title="냉장고를 부탁해" data-content="정리가 안되었던 나의 냉장고 앱으로 정리를 해볼까요?" data-description="<냉장고를 부탁해 앱 >은 자취생,주부님들의 목적으로 만들게 되었으므로, 마트에서 장을 볼때 “그게 있었던가? 그냥 사자” 라는 과소비를 할때가 많습니다. 식재료를 저장함으로서 그러한 과소비를 해결하고 언제 어디서든 냉장고 식재료를 조회하고 관리할 수 있게 만든 앱입니다. 장을 보려고 했던것을 리스트에 담아 시세를 알 수 있으며, 일정 체크를 하면서 스케줄 조정 또한 가능합니다. 귀여운 일러스트와 모션(Lottie)을 적용하였습니다." data-image="./public/img/sideproject/006.png">
+            <div class="b-game-card__cover" style="background-image: url(./public/img/port/app.png)">
+              </div>
+          </div>
+          <div class="b-game-card"data-title="프로젝트 2" data-description="프로젝트 1 설명">
+            <div class="b-game-card__cover" style="background-image: url(./public/img/port/NewsApp.png);"></div>
+          </div>
+          <div class="b-game-card">
+            <div class="b-game-card__cover" style="background-image: url(./public/img/port/pharmacy.png);"></div>
+          </div>
+          <div class="b-game-card">
+            <div class="b-game-card__cover" style="background-image: url(./public/img/port/saramin.png);"></div>
+          </div>
+        </div>
+    
 
-        <div class="skw-pages">
-          <div class="skw-page skw-page-1 active">
-            <div data-aos="fade-down"
-            data-aos-duration="1300"
-            data-aos-easing="ease-in-sine">
-            <div class="skw-page__half skw-page__half--left">
-              <div class="skw-page__skewed">
-                <div class="skw-page__content">
-                </div>
-              </div>
+        <div id="projectDescription" class="project-description">
+          <div class="description-content">
+            <img id="projectImage"></img>
+            <h3 id="projectTitle">프로젝트 설명</h3>
+            <p id="projectContent2">프로젝트 간략 설명</p>
+            <p id="projectContent">프로젝트 내용 및 설명을 여기에 작성합니다.</p>
+            <div class="projectLink">
+              <a href="">GitHub →</a>
+              <a href="">ProJect →</a>
             </div>
-            </div>
-            
-            <div class="skw-page__half skw-page__half--right">              
-              <div class="skw-page__skewed">
-                <div class="skw-page__content">                  
-                  <div data-aos="fade-down"
-                  >
-                <h2 class="skw-page__heading">History</h2>
-                <p class="skw-page__description">Just scroll down</p>
-              </div>
-                <div class="scroll-down-dude"></div>
-              </div>
-            </div>
+            <!-- <button class="close-btn" onclick="closeProjectDescription()">닫기</button> -->
           </div>
         </div>
-      </div>
-        <div class="container" data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500">
+
         
-        <div class="timeline-block timeline-block-right">
-          <div class="marker"></div>
-          <div class="timeline-content">
-              <h3>2023. 04 ~ </h3>
-              <ul>
-                  <li>Infocar SI 개발3팀 Web Developer</li>
-              </ul>
-              <p>
-                <br>
-                Web 및 App API 개발 및 운영, REST API 규격 준수로 비즈니스 로직 구현<br>
-                API 문서화 및 관리, 데이터베이스 구조 및 컬럼 수정과 문서화<br>
-                보안 및 인증을 강화하는 JWT 효과적 활용<br>
-                버전 관리 및 협업을 위한 규칙적 커밋 메시지 작성<br>
-                젠킨스를 활용한 자동 배포 및 자동화 설정<br>
-                프론트엔드 서비스 개발, 클라이언트 인터페이스 업그레이드<br>
-                CSS → SCSS 경량화, Bootstrap 테마 코드 통일<br>
-                에러 해결 및 상태 관리를 위해 VueX 도입<br>
-                사용자 경험 향상 및 디자인 반영을 위한 작업 진행
-              </p>
-          </div>
-      </div>
-        
-           <div class="timeline-block timeline-block-left">
-            <div class="marker"></div>
-            <div class="timeline-content">
-                <h3>05. 2023 ~ 12. 2023</h3>
-                <ul>
-                    <li>Infocar SI 개발3팀 Web Developer</li>
-                </ul>
-                <p>
-                  <br/>
-                    삼성화재, 골프단짝, 리치앤코, 기아V비즈링과 같은 다양한 신규 신청페이지 자체 제작<br>
-                    다양한 고객을 위해 다양한 이벤트 및 신청 페이지를 개발하고 관리<br>
-                    골든민 협력 개발 및 유지보수<br>
-                    반응형 / 용도에 맞는 인터페이스 개선<br>
-                    사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현<br>
-                    각 홈페이지 관한 유지보수 및 관리
-                </p>
-            </div>
-        </div>
-        
-           <!-- <div class="timeline-block timeline-block-right">
-              <div class="marker"></div>
-              <div class="timeline-content">
-                 <h3>Third Year</h3>
-                 <span>Some work experience</span>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-              </div>
-           </div>
-        
-           <div class="timeline-block timeline-block-left">
-              <div class="marker"></div>
-              <div class="timeline-content">
-                 <h3>Fourth Year</h3>
-                 <span>Some work experience</span>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-              </div>
-           </div>
-        
-           <div class="timeline-block timeline-block-right">
-              <div class="marker"></div>
-              <div class="timeline-content">
-                 <h3>Fifth Year</h3>
-                 <span>Some work experience</span>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-              </div>
-           </div>
-        </div>
-        -->
-        
-            
-    
-    
-    
-   
-      
-      
-      <script
-      src="https://code.jquery.com/jquery-3.6.3.min.js"
-      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      
-    </script>
     <script src="./public/js/detail.js"></script>    
+    <script>
+
+      const projectCards = document.querySelectorAll('.b-game-card');
+      const projectTitle = document.getElementById('projectTitle');
+      const projectContent = document.getElementById('projectContent');
+      const projectContent2 = document.getElementById('projectContent2');
+      const projectImage = document.getElementById('projectImage');
+
+      projectCards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+          // 클릭한 카드의 데이터 가져오기
+          const title = card.getAttribute('data-title');
+          const description = card.getAttribute('data-description');
+          const description2 = card.getAttribute('data-content');
+          const image = card.getAttribute('data-image');
+
+          // 모달에 데이터 표시
+          projectTitle.textContent = title;
+          projectContent.textContent = description;
+          projectContent2.textContent = description2;
+          projectImage.src = image;
+
+          // 모달 열기
+          showProjectDescription();
+        });
+      });
+
+
+      function showProjectDescription() {
+      const projectDescription = document.getElementById('projectDescription');
+      projectDescription.classList.add('show');
+
+      // 사이드바 열릴 때, 모든 다른 요소에 투명도 클래스 추가
+      const otherElements = document.querySelectorAll('.l-container, .b-game-card');
+      otherElements.forEach((element) => {
+        element.id = 'transparent';
+      });
+    }
+
+    function closeProjectDescription() {
+      const projectDescription = document.getElementById('projectDescription');
+      projectDescription.classList.remove('show');
+
+      // 사이드바 닫힐 때, 모든 다른 요소의 투명도 클래스 제거
+      const otherElements = document.querySelectorAll('.l-container, .b-game-card');
+      otherElements.forEach((element) => {
+        element.removeAttribute('id', 'transparent');
+
+      });
+    }
+
+      // 사이드 바를 열었을 때 외부를 클릭하면 닫히도록 하는 이벤트 핸들러
+      function closeProjectDescriptionOnClickOutside(event) {
+        const projectDescription = document.getElementById('projectDescription');
+        if (event.target !== projectDescription && !projectDescription.contains(event.target)) {
+          closeProjectDescription();
+        }
+      }
+
+      // 다른 곳을 클릭하면 모달이 닫히도록 설정
+      document.addEventListener('mousedown', closeProjectDescriptionOnClickOutside);
+
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../public/font/Nix.otf") format("woff");
+}
+* {
+  font-family: Noto Sans KR;
+}
+
 section {
   display: grid;
   place-items: center;
@@ -160,7 +168,7 @@ section {
 }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
 }
 
 .skw-pages {
