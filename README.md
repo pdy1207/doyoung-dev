@@ -83,7 +83,6 @@ I manage sources and store and manage the things I want to produce.
 ## ETC
 
 <div align="left">
-        <img width="25%"alt="image" src="https://github.com/DoyoungDev/Introduction/assets/110442250/4aca635f-90b6-4046-acef-aed2c1949926">
         <img width="25%"alt="image" src="https://github.com/pdy1207/doyoung-dev/assets/110442250/8cae5246-a44c-409c-a077-a9cc74de2fa6">
         <img width="25%"alt="image" src="https://github.com/pdy1207/doyoung-dev/assets/110442250/fe9277f0-52d9-468c-8fd9-ecca4182c97d">
 </div>
