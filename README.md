@@ -1,10 +1,6 @@
 <div align="center">
         <img width="100%" alt="image" src="https://github.com/DoyoungDev/Introduction/assets/110442250/5158cb79-807f-43c2-a861-1dc0017ac717">
 </div>
-<div align="center">
-        <img width="100%" alt="image" src="https://github.com/DoyoungDev/Introduction/assets/110442250/79faf530-3c34-4bee-863f-b21a9478c533">
-</div>
-
 
 
 ## Web Development Team
@@ -16,36 +12,39 @@
 |*Company*| Web Dev | Assistant Manager |
 
 ## Introduction
-안녕하세요 제 이름은 박도영 입니다. 또 다른 이름은 "지구" 입니다. 지구에서는 여러 사람이 살고있고 저희 또한 사람속에 살고 있습니다.  <br>
-지구처럼 둥글게 둥글게 잘 어울릴 수 있는 사람이 되고싶어서 지구 라는 이름을 갖고 있습니다. 취미이자 직업이 개발인 개발자입니다 + 헬스운동을 즐겨합니다 또다른 코딩 근육을 기르기 위해서입니다 <br>
 
-모든 개발관련된 지식을 기억할 수 없기 때문에 깃허브를 통해서 관련 소스를 본다던가  <br>
-예를들어 관리자페이지가 필요하면 시간은 없고 얼른 제작을 해야한다면 디자인에 관해서는 오픈소스를 활용한다던가 그에 반대로 문법이 기억이 안나다면 해당 회사 페이지에 들어가서 소스참고를 해본다던가 하며 활용하고있습니다. <br>
-그 외 저만의 제작된 프로젝트에 관련해서도 소스관리 및 제작하고싶은것들을 저장하고 관리하고 있습니다
+안녕하십니까 다양한 분야를 도전하려고하고, 도전적인 목표를 통하여 지식과 경험을 습득하고 배우는 과정을 즐기는 개발자 박도영 입니다. <br/>
+마치 거미줄이 더욱 촘촘할수록 높은 수준의 성과를 얻는 것처럼, 꾸준한 사이드 프로젝트를 통해 전문성을 향상시키고 있습니다. <br/>
+<br/>
+평소 개발 경험을 공유하거나 기록하는 것을 좋아하여 블로그와 깃허브를 활용해 기술과 인사이트를 공유하고 있습니다. <br/>
+더불어 포트폴리오 작성, 이력서 개선, 코드 에러 해결에 관한 오픈채팅을 운영하며 동료 개발자들에게 도움을 제공하고 있습니다. <br/>
+또한 비동기적인 업무용 메신저 및 다양한 협업 툴 사용에 익숙하며 모르는 기술이 있더라도 필요하다면 능동적으로 찾아보고 학습하여 업무에 적극 활용 합니다. <br/>
+어떤 사람일지라도 궁합이 잘 맞는 구글같은 사람이 되려고 노력중이며, 조금 더 나아가 나중에는 어떠한 기술 조직의 리더라는 목표를 가지고 다양한 기술을 학습하거나 사용하고 경험을 쌓고 있습니다. <br/>
+
+오픈소스에 관심이 많고, 완벽한 솔루션은 없다고 생각하며, 지속적인 협업과 개선을 통해 더 나은 결과를 창출하려 노력하고 있습니다. <br/>
+개발이란 결국 비즈니스와의 원활한 커뮤니케이션이 개발 업무의 핵심이라고 생각하며, 문제 해결과 비즈니스 성과를 위해 능동적으로 협력합니다. <br/>
+이러한 덕목을 기반으로 더욱 고급스럽고 비즈니스 측면에서 가치를 창출하는 개발자로서의 역량을 높이기 위해 끊임없이 학습하고 노력하고 있습니다. <br/>
+<br/>
+업무 효율성과 생산성은 비즈니스의 얼굴인것 처럼 정직 · 신뢰 · 겸손 · 성실을 기반으로 지속적인 도전과 성장을 추구하고 있습니다.
 
 ```
-Hello, my name is Park Doyoung. Another name is "Earth". Many people live on Earth, and we also live among people.
-I have the name Earth because I want to be a person who can fit in well as roundly and roundly like the earth.
-I am a developer whose hobby and job is development + I enjoy doing fitness exercises to develop another coding muscle.
+Hello, I am Park Do-young, a developer who enjoys the process of acquiring knowledge and experience through challenging goals and learning.
+Just as a spider web becomes denser and more effective, I am constantly improving my expertise through side projects.
 
-Because I can't remember all the development-related knowledge, I look at related sources through Github.
-For example, if I need an admin page, I don't have time and I need to make it quickly, I use open source for design,
-or I can't remember the grammar.
-If you don't know, go to the company page and try to reference the source and use it. In addition, in relation to my own projects,
-I manage sources and store and manage the things I want to produce.
+I enjoy sharing and recording my development experiences,
+so I use blogs and GitHub to share my skills and insights.
+In addition, I provide help to fellow developers by operating open chats on portfolio writing, resume improvement, and code error resolution.
+I am also familiar with using asynchronous business messengers and various collaboration tools, and even if there are technologies I do not know,
+I actively look for and learn them if necessary and actively utilize them in my work. I am trying to become a Google-like person who is compatible with anyone,
+and I am learning, using, and gaining experience in various technologies with the goal of becoming a leader of a technology organization in the future.
+
+I am very interested in open source, believe that there is no perfect solution, and strive to create better results through continuous collaboration and improvement.
+I believe that development is ultimately about smooth communication with the business,
+and I actively cooperate for problem solving and business performance. Based on these virtues,
+we are constantly learning and working hard to improve our capabilities as developers who create value in terms of business and are more sophisticated.
+
+Just as work efficiency and productivity are the face of business, we are pursuing continuous challenges and growth based on honesty, trust, humility, and sincerity.
 ```
-
-
-## I'm looking for people to hang out with me 📩
-### Requirements and Appeal
-
-- No math or English required
-- There is no specific time limit for
-- I don't need membership fees, but I try to have a meeting once a month. **meeting at home**
-- Show off your portfolio **I like something simple**
-- Whether it's an app or web, it's good if you come in for the purpose of launching or servicing, but a proactive attitude or a steady attitude is more important.
-- Would you like to go on a journey with me?
-- pdyme1207@gmail.com 📤
 
 ## Stacks 🔧
 
