@@ -13,40 +13,26 @@
 
 ## Introduction
 
-안녕하십니까. 사용자 중심의 가치 있는 서비스를 만들어가며, 지속적인 혁신을 추구하는 박도영입니다. <br/>
-저는 기술이 단순한 도구가 아닌 실제 사용자의 삶을 개선하는 수단이라고 믿습니다. <br/>
- <br/>
-마치 거미줄이 정교할수록 그 가치가 높아지듯, 다양한 기술들을 유기적으로 연결하여 사용자에게 의미 있는 서비스를 제공하는 것을 추구합니다. 이를 실천하기 위해 실제 사용자의 니즈를 해결하는 사이드 프로젝트를 꾸준히 진행하며, 서비스의 시작부터 배포, 개선까지 전체 라이프사이클을 경험하고 있습니다. <br/>
-<br/>
-더 나은 서비스 개발을 위해 기술 공유와 협업을 실천하고 있습니다. 
-개인 기술 블로그와 깃허브를 통해 서비스 개발 과정에서 얻은 인사이트를 공유하며, 특히 실제 사용자 피드백을 바탕으로 한 성능 최적화와 사용자 경험 개선 사례를 중점적으로 다루고 있습니다. <br/>
-또한 포트폴리오 작성과 코드 에러 해결을 주제로 한 개발자 커뮤니티를 운영하며, 다양한 현장의 문제 해결 경험을 쌓고 있습니다.
-<br/><br/>
-현대의 서비스 개발은 팀워크의 결정체라고 생각합니다. Slack, Jira, Notion와 같은 비동기식 협업 도구를 능숙하게 활용하여 팀 생산성을 향상시키고 있으며, 새로운 도구나 기술이 필요한 상황에서도 신속하게 학습하여 프로젝트에 적용하고 있습니다. <br/>
-오픈소스 생태계에 대한 이해를 바탕으로, 완벽한 솔루션보다는 지속적인 개선과 협업을 통한 서비스의 점진적 발전을 추구합니다. <br/>
-사용자의 요구사항을 정확히 이해하고 이를 개발 과정에 효과적으로 반영하는 것이 성공적인 서비스의 핵심이라고 믿습니다. <br/>
-<br/>
-이를 위해 제품 기획부터 개발, 운영까지 전 과정에서 비즈니스 팀과의 긴밀한 협업을 추구합니다. <br/>
-정직과 신뢰, 겸손을 바탕으로 한 끊임없는 학습과 도전을 통해, 사용자에게 실질적인 가치를 전달하는 서비스를 만들어가고 싶습니다. 귀사의 혁신적인 서비스 문화에 기여하며, 함께 성장하고 싶습니다.
+안녕하십니까. 사용자 중심의 가치 있는 서비스를 만들어가며, 지속적인 혁신을 추구하는 박도영입니다. </br></br>
+저는 비즈니스가 단순한 수익 창출이 아닌, 실제 사용자의 삶을 개선하는 수단이라고 믿습니다. 마치 거미줄이 정교할수록 그 가치가 높아지듯, 다양한 관점과 아이디어를 유기적으로 연결하여 사용자에게 의미 있는 가치를 제공하는 것을 추구합니다. 이를 실천하기 위해 실제 사용자의 니즈를 해결하는 프로젝트들을 꾸준히 진행하며, 서비스의 기획부터 런칭, 개선까지 전체 프로세스를 경험하고 있습니다. </br> </br>
+더 나은 서비스를 위해 지식 공유와 협업을 실천하고 있습니다. 개인 블로그를 통해 비즈니스 인사이트를 공유하며, 특히 실제 사용자 피드백을 바탕으로 한 서비스 개선 사례를 중점적으로 다루고 있습니다. 또한 개발자들을 위한 포트폴리오 작성과 기술 문제 해결을 주제로 한 커뮤니티를 운영하며, 다양한 현장의 문제 해결 경험을 쌓고 있습니다. </br></br>
+현대의 비즈니스는 팀워크의 결정체라고 생각합니다. Slack, Notion과 같은 비동기식 협업 도구를 능숙하게 활용하여 팀 생산성을 향상시키고 있으며, 새로운 도구나 방법론이 필요한 상황에서도 신속하게 학습하여 프로젝트에 적용하고 있습니다. </br></br>
+변화하는 시장 환경에서, 완벽한 솔루션보다는 지속적인 개선과 협업을 통한 서비스의 점진적 발전을 추구합니다. 사용자의 요구사항을 정확히 이해하고 이를 서비스에 효과적으로 반영하는 것이 성공적인 비즈니스의 핵심이라고 믿습니다. 이를 위해 기획부터 운영까지 전 과정에서 다양한 부서와의 긴밀한 협업을 추구합니다. </br></br>
+정직과 신뢰, 겸손을 바탕으로 한 끊임없는 학습과 도전을 통해, 사용자에게 실질적인 가치를 전달하는 서비스를 만들어가고 싶습니다. 귀사의 혁신적인 문화에 기여하며, 함께 성장하고 싶습니다.
 
 ```
 Hello, I am Doyoung Park, pursuing continuous innovation while creating user-centric services that deliver meaningful value.
-I believe technology is not merely a tool but a means to enhance users' lives.
-Just as a spider web becomes more valuable with its intricacy, I strive to create meaningful services by organically connecting various technologies. To put this into practice,
-I consistently conduct side projects that address real user needs, gaining experience across the entire service lifecycle from inception to deployment and improvement.
+I believe business is not merely about generating revenue, but a means to enhance users' lives. Just as a spider web becomes more valuable with its intricacy,
+I strive to create meaningful value by organically connecting various perspectives and ideas. To put this into practice, I consistently engage in projects that address real user needs, gaining experience across the entire service process from planning to launching and improvement.
 
-To develop better services, I actively engage in knowledge sharing and collaboration. Through my technical blog and GitHub,
-I share insights gained from service development, particularly focusing on performance optimization cases and user experience improvements based on actual user feedback. Additionally,
-I manage a developer community centered on portfolio creation and code error resolution, accumulating diverse problem-solving experiences from various fields.
+To develop better services, I actively engage in knowledge sharing and collaboration.
+Through my personal blog, I share business insights, particularly focusing on service improvement cases based on actual user feedback. Additionally, I manage a community centered on portfolio creation and technical problem-solving for developers, accumulating diverse problem-solving experiences from various fields.
 
-I believe modern service development is the culmination of teamwork.
-I enhance team productivity by proficiently utilizing asynchronous collaboration tools like Slack and Jira, and when new tools or technologies are required, I quickly learn and apply them to projects.
+I believe modern business is the culmination of teamwork. I enhance team productivity by proficiently utilizing asynchronous collaboration tools like Slack and Notion,
+and when new tools or methodologies are required, I quickly learn and apply them to projects.
 
-Based on my understanding of the open-source ecosystem, I pursue gradual service improvement through continuous enhancement and collaboration rather than seeking perfect solutions.
-I believe the key to successful service lies in accurately understanding user requirements and effectively incorporating them into the development process. To achieve this,
-I seek close collaboration with business teams throughout the entire process, from product planning to development and operations.
-
-Through continuous learning and challenges founded on honesty, trust, and humility, I aspire to create services that deliver tangible value to users. I wish to contribute to your company's innovative service culture and grow together.
+In an ever-changing market environment, I pursue gradual service improvement through continuous enhancement and collaboration rather than seeking perfect solutions. I believe the key to successful business lies in accurately understanding user requirements and effectively incorporating them into services. To achieve this, I seek close collaboration with various departments throughout the entire process, from planning to operations.
+Through continuous learning and challenges founded on honesty, trust, and humility, I aspire to create services that deliver tangible value to users. I wish to contribute to your company's innovative culture and grow together.
 ```
 
 ## Stacks 🔧
