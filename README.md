@@ -13,37 +13,41 @@
 
 ## Introduction
 
-안녕하십니까 다양한 분야를 도전하려고하고, 도전적인 목표를 통하여 지식과 경험을 습득하고 배우는 과정을 즐기는 개발자 박도영 입니다. <br/>
-마치 거미줄이 더욱 촘촘할수록 높은 수준의 성과를 얻는 것처럼, 꾸준한 사이드 프로젝트를 통해 전문성을 향상시키고 있습니다. <br/>
+안녕하십니까. 사용자 중심의 가치 있는 서비스를 만들어가며, 지속적인 혁신을 추구하는 박도영입니다. <br/>
+저는 기술이 단순한 도구가 아닌 실제 사용자의 삶을 개선하는 수단이라고 믿습니다. <br/>
+마치 거미줄이 정교할수록 그 가치가 높아지듯, 다양한 기술들을 유기적으로 연결하여 사용자에게 의미 있는 서비스를 제공하는 것을 추구합니다. <br/>
+이를 실천하기 위해 실제 사용자의 니즈를 해결하는 사이드 프로젝트를 꾸준히 진행하며, 서비스의 시작부터 배포, 개선까지 전체 라이프사이클을 경험하고 있습니다. <br/>
 <br/>
-평소 개발 경험을 공유하거나 기록하는 것을 좋아하여 블로그와 깃허브를 활용해 기술과 인사이트를 공유하고 있습니다. <br/>
-더불어 포트폴리오 작성, 이력서 개선, 코드 에러 해결에 관한 오픈채팅을 운영하며 동료 개발자들에게 도움을 제공하고 있습니다. <br/>
-또한 비동기적인 업무용 메신저 및 다양한 협업 툴 사용에 익숙하며 모르는 기술이 있더라도 필요하다면 능동적으로 찾아보고 학습하여 업무에 적극 활용 합니다. <br/>
-어떤 사람일지라도 궁합이 잘 맞는 구글같은 사람이 되려고 노력중이며, 조금 더 나아가 나중에는 어떠한 기술 조직의 리더라는 목표를 가지고 다양한 기술을 학습하거나 사용하고 경험을 쌓고 있습니다. <br/>
-
-오픈소스에 관심이 많고, 완벽한 솔루션은 없다고 생각하며, 지속적인 협업과 개선을 통해 더 나은 결과를 창출하려 노력하고 있습니다. <br/>
-개발이란 결국 비즈니스와의 원활한 커뮤니케이션이 개발 업무의 핵심이라고 생각하며, 문제 해결과 비즈니스 성과를 위해 능동적으로 협력합니다. <br/>
-이러한 덕목을 기반으로 더욱 고급스럽고 비즈니스 측면에서 가치를 창출하는 개발자로서의 역량을 높이기 위해 끊임없이 학습하고 노력하고 있습니다. <br/>
+더 나은 서비스 개발을 위해 기술 공유와 협업을 실천하고 있습니다. <br/>
+개인 기술 블로그와 깃허브를 통해 서비스 개발 과정에서 얻은 인사이트를 공유하며, 특히 실제 사용자 피드백을 바탕으로 한 성능 최적화와 사용자 경험 개선 사례를 중점적으로 다루고 있습니다. <br/>
+또한 포트폴리오 작성과 코드 에러 해결을 주제로 한 개발자 커뮤니티를 운영하며, 다양한 현장의 문제 해결 경험을 쌓고 있습니다.
 <br/>
-업무 효율성과 생산성은 비즈니스의 얼굴인것 처럼 정직 · 신뢰 · 겸손 · 성실을 기반으로 지속적인 도전과 성장을 추구하고 있습니다.
+현대의 서비스 개발은 팀워크의 결정체라고 생각합니다.  <br/>
+Slack, Jira, Notion와 같은 비동기식 협업 도구를 능숙하게 활용하여 팀 생산성을 향상시키고 있으며, 새로운 도구나 기술이 필요한 상황에서도 신속하게 학습하여 프로젝트에 적용하고 있습니다. <br/>
+오픈소스 생태계에 대한 이해를 바탕으로, 완벽한 솔루션보다는 지속적인 개선과 협업을 통한 서비스의 점진적 발전을 추구합니다. <br/>
+사용자의 요구사항을 정확히 이해하고 이를 개발 과정에 효과적으로 반영하는 것이 성공적인 서비스의 핵심이라고 믿습니다. <br/>
+<br/>
+이를 위해 제품 기획부터 개발, 운영까지 전 과정에서 비즈니스 팀과의 긴밀한 협업을 추구합니다. <br/>
+정직과 신뢰, 겸손을 바탕으로 한 끊임없는 학습과 도전을 통해, 사용자에게 실질적인 가치를 전달하는 서비스를 만들어가고 싶습니다. 귀사의 혁신적인 서비스 문화에 기여하며, 함께 성장하고 싶습니다.
 
 ```
-Hello, I am Park Do-young, a developer who enjoys the process of acquiring knowledge and experience through challenging goals and learning.
-Just as a spider web becomes denser and more effective, I am constantly improving my expertise through side projects.
+Hello, I am Doyoung Park, pursuing continuous innovation while creating user-centric services that deliver meaningful value.
+I believe technology is not merely a tool but a means to enhance users' lives.
+Just as a spider web becomes more valuable with its intricacy, I strive to create meaningful services by organically connecting various technologies. To put this into practice,
+I consistently conduct side projects that address real user needs, gaining experience across the entire service lifecycle from inception to deployment and improvement.
 
-I enjoy sharing and recording my development experiences,
-so I use blogs and GitHub to share my skills and insights.
-In addition, I provide help to fellow developers by operating open chats on portfolio writing, resume improvement, and code error resolution.
-I am also familiar with using asynchronous business messengers and various collaboration tools, and even if there are technologies I do not know,
-I actively look for and learn them if necessary and actively utilize them in my work. I am trying to become a Google-like person who is compatible with anyone,
-and I am learning, using, and gaining experience in various technologies with the goal of becoming a leader of a technology organization in the future.
+To develop better services, I actively engage in knowledge sharing and collaboration. Through my technical blog and GitHub,
+I share insights gained from service development, particularly focusing on performance optimization cases and user experience improvements based on actual user feedback. Additionally,
+I manage a developer community centered on portfolio creation and code error resolution, accumulating diverse problem-solving experiences from various fields.
 
-I am very interested in open source, believe that there is no perfect solution, and strive to create better results through continuous collaboration and improvement.
-I believe that development is ultimately about smooth communication with the business,
-and I actively cooperate for problem solving and business performance. Based on these virtues,
-we are constantly learning and working hard to improve our capabilities as developers who create value in terms of business and are more sophisticated.
+I believe modern service development is the culmination of teamwork.
+I enhance team productivity by proficiently utilizing asynchronous collaboration tools like Slack and Jira, and when new tools or technologies are required, I quickly learn and apply them to projects.
 
-Just as work efficiency and productivity are the face of business, we are pursuing continuous challenges and growth based on honesty, trust, humility, and sincerity.
+Based on my understanding of the open-source ecosystem, I pursue gradual service improvement through continuous enhancement and collaboration rather than seeking perfect solutions.
+I believe the key to successful service lies in accurately understanding user requirements and effectively incorporating them into the development process. To achieve this,
+I seek close collaboration with business teams throughout the entire process, from product planning to development and operations.
+
+Through continuous learning and challenges founded on honesty, trust, and humility, I aspire to create services that deliver tangible value to users. I wish to contribute to your company's innovative service culture and grow together.
 ```
 
 ## Stacks 🔧
