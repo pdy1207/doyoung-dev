@@ -1,10 +1,6 @@
 <div align="center">
         <img width="100%" alt="image" src="https://github.com/DoyoungDev/Introduction/assets/110442250/5158cb79-807f-43c2-a861-1dc0017ac717">
 </div>
-<div align="center">
-        <img width="100%" alt="image" src="https://github.com/DoyoungDev/Introduction/assets/110442250/79faf530-3c34-4bee-863f-b21a9478c533">
-</div>
-
 
 
 ## Web Development Team
@@ -16,36 +12,28 @@
 |*Company*| Web Dev | Assistant Manager |
 
 ## Introduction
-안녕하세요 제 이름은 박도영 입니다. 또 다른 이름은 "지구" 입니다. 지구에서는 여러 사람이 살고있고 저희 또한 사람속에 살고 있습니다.  <br>
-지구처럼 둥글게 둥글게 잘 어울릴 수 있는 사람이 되고싶어서 지구 라는 이름을 갖고 있습니다. 취미이자 직업이 개발인 개발자입니다 + 헬스운동을 즐겨합니다 또다른 코딩 근육을 기르기 위해서입니다 <br>
 
-모든 개발관련된 지식을 기억할 수 없기 때문에 깃허브를 통해서 관련 소스를 본다던가  <br>
-예를들어 관리자페이지가 필요하면 시간은 없고 얼른 제작을 해야한다면 디자인에 관해서는 오픈소스를 활용한다던가 그에 반대로 문법이 기억이 안나다면 해당 회사 페이지에 들어가서 소스참고를 해본다던가 하며 활용하고있습니다. <br>
-그 외 저만의 제작된 프로젝트에 관련해서도 소스관리 및 제작하고싶은것들을 저장하고 관리하고 있습니다
+안녕하십니까. 사용자 중심의 가치 있는 서비스를 만들어가며, 지속적인 혁신을 추구하는 박도영입니다. </br></br>
+저는 비즈니스가 단순한 수익 창출이 아닌, 실제 사용자의 삶을 개선하는 수단이라고 믿습니다. 마치 거미줄이 정교할수록 그 가치가 높아지듯, 다양한 관점과 아이디어를 유기적으로 연결하여 사용자에게 의미 있는 가치를 제공하는 것을 추구합니다. 이를 실천하기 위해 실제 사용자의 니즈를 해결하는 프로젝트들을 꾸준히 진행하며, 서비스의 기획부터 런칭, 개선까지 전체 프로세스를 경험하고 있습니다. </br> </br>
+더 나은 서비스를 위해 지식 공유와 협업을 실천하고 있습니다. 개인 블로그를 통해 비즈니스 인사이트를 공유하며, 특히 실제 사용자 피드백을 바탕으로 한 서비스 개선 사례를 중점적으로 다루고 있습니다. 또한 개발자들을 위한 포트폴리오 작성과 기술 문제 해결을 주제로 한 커뮤니티를 운영하며, 다양한 현장의 문제 해결 경험을 쌓고 있습니다. </br></br>
+현대의 비즈니스는 팀워크의 결정체라고 생각합니다. Slack, Notion과 같은 비동기식 협업 도구를 능숙하게 활용하여 팀 생산성을 향상시키고 있으며, 새로운 도구나 방법론이 필요한 상황에서도 신속하게 학습하여 프로젝트에 적용하고 있습니다. </br></br>
+변화하는 시장 환경에서, 완벽한 솔루션보다는 지속적인 개선과 협업을 통한 서비스의 점진적 발전을 추구합니다. 사용자의 요구사항을 정확히 이해하고 이를 서비스에 효과적으로 반영하는 것이 성공적인 비즈니스의 핵심이라고 믿습니다. 이를 위해 기획부터 운영까지 전 과정에서 다양한 부서와의 긴밀한 협업을 추구합니다. </br></br>
+정직과 신뢰, 겸손을 바탕으로 한 끊임없는 학습과 도전을 통해, 사용자에게 실질적인 가치를 전달하는 서비스를 만들어가고 싶습니다. 귀사의 혁신적인 문화에 기여하며, 함께 성장하고 싶습니다.
 
 ```
-Hello, my name is Park Doyoung. Another name is "Earth". Many people live on Earth, and we also live among people.
-I have the name Earth because I want to be a person who can fit in well as roundly and roundly like the earth.
-I am a developer whose hobby and job is development + I enjoy doing fitness exercises to develop another coding muscle.
+Hello, I am Doyoung Park, pursuing continuous innovation while creating user-centric services that deliver meaningful value.
+I believe business is not merely about generating revenue, but a means to enhance users' lives. Just as a spider web becomes more valuable with its intricacy,
+I strive to create meaningful value by organically connecting various perspectives and ideas. To put this into practice, I consistently engage in projects that address real user needs, gaining experience across the entire service process from planning to launching and improvement.
 
-Because I can't remember all the development-related knowledge, I look at related sources through Github.
-For example, if I need an admin page, I don't have time and I need to make it quickly, I use open source for design,
-or I can't remember the grammar.
-If you don't know, go to the company page and try to reference the source and use it. In addition, in relation to my own projects,
-I manage sources and store and manage the things I want to produce.
+To develop better services, I actively engage in knowledge sharing and collaboration.
+Through my personal blog, I share business insights, particularly focusing on service improvement cases based on actual user feedback. Additionally, I manage a community centered on portfolio creation and technical problem-solving for developers, accumulating diverse problem-solving experiences from various fields.
+
+I believe modern business is the culmination of teamwork. I enhance team productivity by proficiently utilizing asynchronous collaboration tools like Slack and Notion,
+and when new tools or methodologies are required, I quickly learn and apply them to projects.
+
+In an ever-changing market environment, I pursue gradual service improvement through continuous enhancement and collaboration rather than seeking perfect solutions. I believe the key to successful business lies in accurately understanding user requirements and effectively incorporating them into services. To achieve this, I seek close collaboration with various departments throughout the entire process, from planning to operations.
+Through continuous learning and challenges founded on honesty, trust, and humility, I aspire to create services that deliver tangible value to users. I wish to contribute to your company's innovative culture and grow together.
 ```
-
-
-## I'm looking for people to hang out with me 📩
-### Requirements and Appeal
-
-- No math or English required
-- There is no specific time limit for
-- I don't need membership fees, but I try to have a meeting once a month. **meeting at home**
-- Show off your portfolio **I like something simple**
-- Whether it's an app or web, it's good if you come in for the purpose of launching or servicing, but a proactive attitude or a steady attitude is more important.
-- Would you like to go on a journey with me?
-- pdyme1207@gmail.com 📤
 
 ## Stacks 🔧
 
@@ -83,7 +71,6 @@ I manage sources and store and manage the things I want to produce.
 ## ETC
 
 <div align="left">
-        <img width="25%"alt="image" src="https://github.com/DoyoungDev/Introduction/assets/110442250/4aca635f-90b6-4046-acef-aed2c1949926">
         <img width="25%"alt="image" src="https://github.com/pdy1207/doyoung-dev/assets/110442250/8cae5246-a44c-409c-a077-a9cc74de2fa6">
         <img width="25%"alt="image" src="https://github.com/pdy1207/doyoung-dev/assets/110442250/fe9277f0-52d9-468c-8fd9-ecca4182c97d">
 </div>
