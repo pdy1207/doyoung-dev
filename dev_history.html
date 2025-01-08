@@ -142,7 +142,7 @@
           </a>
         </li>
         
-        <li class="menu__item">
+        <!-- <li class="menu__item">
           <a href="https://pdy1207.github.io/dev-resume/"
           target="_blank" class="menu__link">
             <span class="menu__title">         
@@ -152,7 +152,7 @@
               </span>
             </span>
           </a>
-        </li>
+        </li> -->
         <li class="menu__item">
           <a
           class="shadow"
@@ -190,12 +190,12 @@
           </div>
         </div>
       </div>
-        <div class="container" data-aos="fade-down"
+        <!-- <div class="container" data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1500">
+        data-aos-duration="1500"> -->
         
-        <div class="timeline-block timeline-block-right">
-          <div class="marker"></div>
+        <!-- <div class="timeline-block timeline-block-right"> -->
+          <!-- <div class="marker"></div>
           <div class="timeline-content">
               <h3>2023. 04 ~ </h3>
               <ul>
@@ -216,12 +216,12 @@
                 에러 해결 및 상태 관리를 위해 VueX 도입<br>
                 사용자 경험 향상 및 디자인 반영을 위한 작업 진행
               </p>
-          </div>
+          </div> -->
       </div>
         
       <div class="timeline-block timeline-block-left">
-            <div class="marker"></div>
-            <div class="timeline-content">
+            <!-- <div class="marker"></div> -->
+            <!-- <div class="timeline-content">
                 <h3>05. 2023 ~ 12. 2023</h3>
                 <ul>
                     <li>INFOCAR SI 개발3팀 Web Developer</li>
@@ -236,7 +236,7 @@
                     사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현<br>
                     각 홈페이지 관한 유지보수 및 관리
                 </p>
-            </div>
+            </div> -->
           </div>
           
 
@@ -288,7 +288,30 @@
     <script src="./public/js/detail.js"></script>    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      
       AOS.init();
+    </script>
+    <script>
+  let scrollCount = 0; // 스크롤 횟수 저장
+    const scrollThreshold = 2; // 동작 트리거 스크롤 횟수
+    let lastScrollPosition = 0; // 이전 스크롤 위치 저장
+
+    window.addEventListener('scroll', () => {
+      const currentScrollPosition = window.scrollY;
+
+      // 스크롤 방향 확인 (아래로 스크롤만 카운트 증가)
+      if (currentScrollPosition > lastScrollPosition) {
+        scrollCount++;
+
+        if (scrollCount >= scrollThreshold) {
+          window.open('https://pdy1207.github.io/dev-resume/', '_blank'); // 새 창에서 URL 열기
+          scrollCount = 0; // 카운트 초기화
+        }
+      }
+
+      lastScrollPosition = currentScrollPosition; // 현재 스크롤 위치 저장
+    });
+
     </script>
   </body>
 </html>
